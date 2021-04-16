@@ -5,7 +5,7 @@
 			<div class="wrap-breadcrumb">
 				<ul>
 					<li class="item-link"><a href="#" class="link">home</a></li>
-					<li class="item-link"><span>login</span></li>
+					<li class="item-link"><span>Cart</span></li>
 				</ul>
 			</div>
 			<div class=" main-content-area">
@@ -15,12 +15,12 @@
 					<ul class="products-cart">
 						<li class="pr-cart-item">
 							<div class="product-image">
-								<figure><img src="assets/images/products/digital_18.jpg" alt=""></figure>
+								<figure><img src="{{asset('assets/images/products/digital_18.jpg')}}" alt=""></figure>
 							</div>
 							<div class="product-name">
-								<a class="link-to-product" href="#">Radiant-360 R6 Wireless Omnidirectional Speaker [White]</a>
+								<a class="link-to-product" href="#">tshirt</a>
 							</div>
-							<div class="price-field produtc-price"><p class="price">$256.00</p></div>
+							<div class="price-field produtc-price"><p class="price">100000</p></div>
 							<div class="quantity">
 								<div class="quantity-input">
 									<input type="text" name="product-quatity" value="1" data-max="120" pattern="[0-9]*" >									
@@ -28,7 +28,7 @@
 									<a class="btn btn-reduce" href="#"></a>
 								</div>
 							</div>
-							<div class="price-field sub-total"><p class="price">$256.00</p></div>
+							<div class="price-field sub-total"><p class="price">100000</p></div>
 							<div class="delete">
 								<a href="#" class="btn btn-delete" title="">
 									<span>Delete from your cart</span>
@@ -38,12 +38,12 @@
 						</li>
 						<li class="pr-cart-item">
 							<div class="product-image">
-								<figure><img src="assets/images/products/digital_20.jpg" alt=""></figure>
+								<figure><img src="{{asset('assets/images/products/fashion_1.jpg')}}" alt=""></figure>
 							</div>
 							<div class="product-name">
-								<a class="link-to-product" href="#">Radiant-360 R6 Wireless Omnidirectional Speaker [White]</a>
+								<a class="link-to-product" href="#">tshirt</a>
 							</div>
-							<div class="price-field produtc-price"><p class="price">$256.00</p></div>
+							<div class="price-field produtc-price"><p class="price">150000</p></div>
 							<div class="quantity">
 								<div class="quantity-input">
 									<input type="text" name="product-quatity" value="1" data-max="120" pattern="[0-9]*">									
@@ -51,7 +51,7 @@
 									<a class="btn btn-reduce" href="#"></a>
 								</div>
 							</div>
-							<div class="price-field sub-total"><p class="price">$256.00</p></div>
+							<div class="price-field sub-total"><p class="price">150000</p></div>
 							<div class="delete">
 								<a href="#" class="btn btn-delete" title="">
 									<span>Delete from your cart</span>
@@ -65,13 +65,13 @@
 				<div class="summary">
 					<div class="order-summary">
 						<h4 class="title-box">Order Summary</h4>
-						<p class="summary-info"><span class="title">Subtotal</span><b class="index">$512.00</b></p>
+						<p class="summary-info"><span class="title">Subtotal</span><b class="index">250000</b></p>
 						<p class="summary-info"><span class="title">Shipping</span><b class="index">Free Shipping</b></p>
-						<p class="summary-info total-info "><span class="title">Total</span><b class="index">$512.00</b></p>
+						<p class="summary-info total-info "><span class="title">Total</span><b class="index">250000</b></p>
 					</div>
 					<div class="checkout-info">
 						<label class="checkbox-field">
-							<input class="frm-input " name="have-code" id="have-code" value="" type="checkbox"><span>I have promo code</span>
+							<input class="frm-input " name="have-code" id="have-code" value="" type="checkbox"><span>Saya punya voucher diskon</span>
 						</label>
 						<a class="btn btn-checkout" href="checkout.html">Check out</a>
 						<a class="link-to-shop" href="shop.html">Continue Shopping<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
